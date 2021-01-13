@@ -1,0 +1,47 @@
+head,body{
+    background-color: #236ab9;;
+}
+
+/* THE HEADER */
+.title-bar {
+    text-align: center;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+  }
+  .title-left {
+    width: 80%;
+}  
+.title-right {
+    width: 20%;
+}
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+.flag-icon{
+    height: 200px;
+    width: 200px;
+    /* display: inline; */
+    margin-bottom: 30px;
+    object-fit: cover;
+}
+
+.topic{
+    color: white;
+    font-family: 'Calistoga';
+}
+.maintopic{
+    margin-top: 10mm;
+    font-size: 100px;
+}
+.subtopic{
+    font-size: 40px;
+    font-weight: lighter;
+}

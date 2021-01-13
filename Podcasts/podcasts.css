@@ -1,0 +1,105 @@
+body{
+    background-color: #236ab9;
+    /* background-image: linear-gradient( #236ab9 50%, #e1ecf9 50%); */
+    /* height: 100%;
+    width: 100%; */
+}
+
+
+/* THE HEADER */
+.title-bar {
+    text-align: center;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+  }
+  .title-left {
+    width: 20%;
+}  
+.title-right {
+    width: 80%;
+}
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+.podcasts-icon{
+    height: 200px;
+    width: 200px;
+    /* display: inline; */
+    margin-bottom: 30px;
+    object-fit: cover;
+}
+
+.topic{
+    color: white;
+    font-family: 'Calistoga';
+}
+.maintopic{
+    margin-top: 10mm;
+    font-size: 100px;
+}
+.subtopic{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+/* THE PODCASTS SECTION */
+.podcasts-section{
+    background-color: #e1ecf9;
+    height: 80%;
+}
+table.bottomBorder { 
+    border-collapse: collapse; 
+  }
+table.bottomBorder td, table.bottomBorder th { 
+    border-bottom: 1px solid #236ab9; 
+    padding: 10px; 
+    text-align: left;
+  }
+
+#podcasts-table{
+    width: 90%; 
+    margin: auto; 
+    margin-right: auto;
+}
+#podcasts-table td{
+    padding: 8px;
+}
+/* #news-table tr:hover{
+    background-color: white;
+} */
+.left {
+    width: 70%;
+}  
+.right {
+    width: 30%;
+}
+
+h2:hover {
+    color: red;
+    cursor: pointer;
+}
+
+a:hover{
+    color: red;
+}
+
+.podcasts-image{
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    /* background-image:url('/Users/swetatamrakar/git/covid-19_Nepal-1/images/podcasts.jpeg'); */
+}
+
+/* THE FOOTER */
+#footer{
+    background-color: #091D34;
+    text-align: center;
+}

@@ -1,0 +1,75 @@
+body{
+    background-color: #236ab9;
+    /* background-image: linear-gradient( #236ab9 50%, #e1ecf9 50%); */
+}
+
+
+/* THE HEADER */
+.title-bar {
+    text-align: center;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+  }
+  .title-left {
+    width: 20%;
+}  
+.title-right {
+    width: 80%;
+}
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+.faqs-icon{
+    height: 200px;
+    width: 200px;
+    /* display: inline; */
+    margin-bottom: 30px;
+    object-fit: cover;
+}
+
+.topic{
+    color: white;
+    font-family: 'Calistoga';
+}
+.maintopic{
+    margin-top: 10mm;
+    font-size: 100px;
+}
+.subtopic{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+
+/* The FAQs SECTION */
+.FAQs-section{
+    background-color: #e1ecf9;
+    height: 80%;
+    width: 90%; 
+    margin: auto; 
+    margin-right: auto;
+}
+
+.question{
+    font-size: 18px;
+}
+.answer{
+    font-size: 15px;
+}
+hr{
+    border-color: #236ab9;
+}
+
+/* THE FOOTER */
+#footer{
+    background-color: #091D34;
+    text-align: center;
+}
