@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Covid-19 Nepal</title>
+    <link href='https://fonts.googleapis.com/css?family=Calistoga' rel='stylesheet'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="Home-Desktop.css">
+</head>
+<body>
+    <!-- Navigation Bar-->
+    <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none; background-color:rgb(59, 146, 228); font-size: 20px;"  id="mySidebar">
+        <button onclick="w3_close()" class="w3-bar-item w3-large" style="background-color: rgb(59, 146, 228);">&times;</button>
+        <a href="#" class="w3-bar-item w3-button">Home</a>
+        <a href="#" class="w3-bar-item w3-button">News</a>
+        <a href="#" class="w3-bar-item w3-button">Podcasts</a>
+        <a href="#" class="w3-bar-item w3-button">FAQs</a>
+    </div>
+
+       <!-- The header of the page -->
+    <header class="first-container w3-container">
+        <div class = "column title-left">
+        <button class="w3-button  w3-xlarge" onclick="w3_open()"><img src="menu.png" class="hamburger"></button>
+        </div>
+        <div class="column title-mid">
+            <h1 class="topic">Covid-19 Nepal</h1>
+        </div>
+        <div class="column title-right">
+            <img src="nepal.png" class="nepa-icon">  
+        </div>
+    </header>
+
+    <!-- The Main Body -->
+    <div class="second-container w3-container">
+        <!-- Table -->
+        <div id ="table1" class="column2 col2-left">
+        <p class ="table-text">Live statistics: COVID-19 Nepal</p>
+
+        <table class="w3-table-all">
+            <tr>
+                <th><img class="table-img" src="sick.png"><p class = "table-head">Tested Positive <p></th>
+                <th><img class="table-img" src="happy.png"><p class = tabele-head>Recovered</p></th>
+                <th><img class="table-img" src="altar.png"><p class ="table-head">Death</p></th>
+            </tr>
+            <tr>
+                <td class = "positives"></td>
+                <td class = "recoveries"></td>
+                <td class = "deceased"></td>
+            </tr>
+        </table>
+        </div>
+
+        <!-- Awareness-->
+        <div class ="column2 col2-right">
+        <img class = "img-aware" src = awareness.jpg>
+        </div>
+
+        <!-- Pie Chart -->
+        <div id="piechart" class="column3 col3-left"></div>
+
+        <!-- Daily SIT reports-->
+        <div id ="SIT" class="column3 col3-right">
+            <p class ="SIT-text">Daily SIT reports:</p>
+            <img class="mohp-img" onclick="click1()" src="mohp.jpg" >
+            <img class= "who-img" onclick="click2()" src="who.jpg">
+
+        </div>
+
+        <!-- Hospital -->
+        <!-- <div id="hospital-table"> -->
+        <span class="last-text">Province Number: </span><input type=text id="province-search" placeholder="Enter the artist name">
+        <button type="button" id="searchButton"><img class="search-img" src="search.png"></button>
+        
+            <table id="hospitals">
+                <tr>
+                  <th>Name</th>
+                  <th>Contact</th>
+                </tr>
+                <tr>
+                  <td class = "hospital-name"></td>
+                  <td class = "contact-number"></td>
+                </tr>
+                <tr>
+                    <td class = "hospital-name"></td>
+                    <td class = "contact-number"></td>
+                </tr>
+                <tr>
+                    <td class = "hospital-name"></td>
+                    <td class = "contact-number"></td>
+                </tr>
+                <tr>
+                    <td class = "hospital-name"></td>
+                    <td class = "contact-number"></td>
+                </tr>
+                <tr>
+                    <td class = "hospital-name"></td>
+                    <td class = "contact-number"></td>
+                </tr>
+                <tr>
+                    <td class = "hospital-name"></td>
+                    <td class = "contact-number"></td>
+                </tr>
+                <tr>
+                    <td class = "hospital-name"></td>
+                    <td class = "contact-number"></td>
+                </tr>
+                <tr>
+                    <td class = "hospital-name"></td>
+                    <td class = "contact-number"></td>
+                </tr>
+                <tr>
+                    <td class = "hospital-name"></td>
+                    <td class = "contact-number"></td>
+                </tr>
+                <tr>
+                    <td class = "hospital-name"></td>
+                    <td class = "contact-number"></td>
+                </tr>
+              </table>
+        </div>
+        
+
+
+    </div>
+
+    <!-- The footer of the page -->
+    <footer class="w3-container" id="footer">
+        <p style="color:white">Covid-19 Nepal</p>
+    </footer>
+      
+
+
+
+
+
+
+    
+
+    
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="Home-Desktop.js"></script>
+   
+
+    
+
+</body>
+</html>
+    
