@@ -6,10 +6,10 @@ A covid-19 data tracker website with live statistics, news, podcasts, and FAQs f
 <img src = "images/covid-19%20news.png" height = "600" width = "400"><br>
 
 Covid-19 podcasts page:<br>
-<img src = "images/covid-19%20podcasts.png" height = "600" width = "400"><br>
+<img src = "images/covid-19%20podcasts.png" height = "650" width = "400"><br>
 
 FAQs page:<br>
-<img src = "images/covid-19%20FAQs.png" height = "600" width = "400"><br>
+<img src = "images/covid-19%20FAQs.png" height = "650" width = "400"><br>
 <!-- alternative way to add the image: ![](images/find%20your%20lyrics.png) -->
 
 APIs used for the application: 
