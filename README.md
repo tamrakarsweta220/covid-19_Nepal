@@ -3,7 +3,7 @@
 A covid-19 data tracker website with live statistics, news, podcasts, and FAQs for covid information in Nepal.<br>
 
 <strong>Covid-19 news page:</strong><br>
-<img src = "images/covid-19%20news.png" height = "100" width = "100"><br>
+<img src = "images/covid-19%20news.png" height = "600" width = "800"><br>
 
 Covid-19 podcasts page:<br>
 <img src = "images/covid-19%20podcasts.png" height = "60%" width = "80%"><br>
