@@ -29,7 +29,11 @@ function updateFAQsDefault(){
         var FAQquestion;
         for(i=0; i<questions.length; i++){
             FAQquestion=result.data[i].question;
-            questions[i].textContent=qno+". "+FAQquestion;
+            if(FAQquestion!=null){
+                questions[i].textContent=qno+". "+FAQquestion;
+            }else{
+                questions[i].textContent=qno+". Question";
+            }
             qno++;
         }
 
@@ -38,7 +42,11 @@ function updateFAQsDefault(){
         var FAQanswer;
         for(i=0; i<answers.length; i++){
             FAQanswer=result.data[i].answer;
-            answers[i].textContent=FAQanswer;
+            if(FAQanswer!=null){
+                answers[i].textContent=FAQanswer;
+            }else{
+                answers[i].textContent="answer";
+            }
         }
     }
     request.send();
@@ -62,7 +70,11 @@ function updateFAQsNep(){
         var FAQquestion;
         for(i=0; i<questions.length; i++){
             FAQquestion=result.data[i].question_np;
-            questions[i].textContent=qno+". "+FAQquestion;
+            if(FAQquestion!=null){
+                questions[i].textContent=qno+". "+FAQquestion;
+            }else{
+                questions[i].textContent=qno+". Question";
+            }
             qno++;
         }
 
@@ -71,7 +83,11 @@ function updateFAQsNep(){
         var FAQanswer;
         for(i=0; i<answers.length; i++){
             FAQanswer=result.data[i].answer_np;
-            answers[i].textContent=FAQanswer;
+            if(FAQanswer!=null){
+                answers[i].textContent=FAQanswer;
+            }else{
+                answers[i].textContent="answer";
+            }
         }
     }
     request.send();
