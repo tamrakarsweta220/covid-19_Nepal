@@ -3,13 +3,13 @@
 A covid-19 data tracker website with live statistics, news, podcasts, and FAQs for covid information in Nepal.<br>
 
 <strong>Covid-19 news page:</strong><br>
-<img src = "images/covid-19%20news.png" height = "600" width = "800"><br>
+<img src = "images/covid-19%20news.png" height = "600" width = "400"><br>
 
 Covid-19 podcasts page:<br>
-<img src = "images/covid-19%20podcasts.png" height = "60%" width = "80%"><br>
+<img src = "images/covid-19%20podcasts.png" height = "600" width = "400"><br>
 
 FAQs page:<br>
-<img src = "images/covid-19%20FAQs.png" height = "60%" width = "80%"><br>
+<img src = "images/covid-19%20FAQs.png" height = "600" width = "400"><br>
 <!-- alternative way to add the image: ![](images/find%20your%20lyrics.png) -->
 
 APIs used for the application: 
