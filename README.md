@@ -5,8 +5,10 @@ A covid-19 data tracker website with live statistics, news, podcasts, and FAQs f
 Covid-19 news page:<br>
 <img src = "images/covid-19%20news.png" height = "600" width = "400"><br>
 
+<!--
 Covid-19 podcasts page:<br>
 <img src = "images/covid-19%20podcasts.png" height = "650" width = "400"><br>
+-->
 
 FAQs page:<br>
 <img src = "images/covid-19%20FAQs.png" height = "650" width = "400"><br>
@@ -17,9 +19,11 @@ APIs used for the application:
   <li> <b> For news of covid-19 </b> <br>
         https://nepalcorona.info/api/v1/news
   </li>
+  <!--
   <li> <b> For podcasts related to covid-19 </b> <br>
        https://nepalcorona.info/api/v1/podcasts
   </li>
+  -->
   <li> <b> For FAQs related to covid-19 </b> <br>
        https://nepalcorona.info/api/v1/faqs
   </li>
